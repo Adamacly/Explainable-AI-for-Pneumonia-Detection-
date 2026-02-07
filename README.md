@@ -1,14 +1,14 @@
 # Pneumonia X-Ray XAI
 
-Système de détection de pneumonie par IA utilisant Django, React et Keras.
+Explainable AI-powered pneumonia detection system using Django, React, and Keras.
 
-## � Installation rapide
+## 🚀 Quick Start
 
 ### Backend
 
 ```bash
 python -m venv venv
-venv\Scripts\activate  # Windows ou source venv/bin/activate
+venv\Scripts\activate  # Windows or source venv/bin/activate
 pip install -r requirements.txt
 cd backend_app
 python manage.py migrate
@@ -24,7 +24,7 @@ npm install
 npm start
 ```
 
-## 📍 Accès
+## 📍 Access
 
 - **Backend** : http://localhost:8000
 - **Admin** : http://localhost:8000/admin
@@ -33,15 +33,15 @@ npm start
 ## 📁 Structure
 
 ```
-├── backend_app/        # Django + API REST + Modèle Keras
-│   ├── api/           # Endpoints API
-│   ├── model/         # Modèle ML (.keras)
-│   └── db.sqlite3     # Base de données
+├── backend_app/        # Django + REST API + Keras Model
+│   ├── api/           # API Endpoints
+│   ├── model/         # ML Model (.keras)
+│   └── db.sqlite3     # Database
 ├── frontend_app/       # React + Tailwind
-│   └── src/           # Composants React
-└── requirements.txt    # Dépendances Python
+│   └── src/           # React Components
+└── requirements.txt    # Python Dependencies
 ```
 
 ## ⚠️ Note
 
-Ce projet est à usage éducatif uniquement. Ne pas utiliser pour diagnostics réels sans approbation réglementaire.
+This project is for educational purposes only. Do not use for real diagnosis without proper regulatory approval.

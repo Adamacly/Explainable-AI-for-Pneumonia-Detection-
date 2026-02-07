@@ -2,6 +2,16 @@
 
 Explainable AI-powered pneumonia detection system using Django, React, and Keras.
 
+## 📊 Model Performance
+
+The trained Keras model demonstrates strong performance on pneumonia detection:
+
+- **Test Accuracy**: 0.8989 (89.89%)
+- **Test Precision**: 0.8687 (86.87%)
+- **Test Recall**: 0.9414 (94.14%)
+
+The high recall score indicates excellent sensitivity in detecting pneumonia cases, which is critical for medical diagnosis applications.
+
 ## 🚀 Quick Start
 
 ### Backend

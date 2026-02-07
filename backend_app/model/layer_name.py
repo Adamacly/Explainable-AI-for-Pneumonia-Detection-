@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-model_path = "C:/Users/ADAMA/Desktop/PNEUMONIE/backend_app/model/my_real_model.keras"
+model_path = "./my_real_model.keras"
 model = tf.keras.models.load_model(model_path)
 
 # Get the resnet50 base model
